@@ -70,5 +70,5 @@ if __name__ == "__main__":
     segmented_image = draw_bounding_boxes(ace_diamonds_rotated,boxes)           # draw the bounding boxes onto the image
     plt.imshow(overlapping_BB_image)
     plt.show()
-    #plt.imshow(segmented_image)
-    #plt.show()
+    plt.imshow(segmented_image)
+    plt.show()
