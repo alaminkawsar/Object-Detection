@@ -38,7 +38,7 @@ net = cv2.dnn.readNet(args.weights, args.config)
 blob = cv2.dnn.blobFromImage(image, scale, (416, 416), (0,0,0), True, crop=False)
 
 #set input blob for the network
-net.setInput()
+net.setInput(blob)
 
 # function to get the output layer names
 #in the architecture
