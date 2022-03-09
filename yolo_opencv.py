@@ -59,11 +59,14 @@ for out in outs:
             
 #print(len(boxes))
 indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
+font = cv2.LINE_AA
 
 for i in range(len(boxes)):
     if i in indexes:
         x, y, w, h = boxes[i]
+        label = str(classes[class_ids[i]])
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 1)
+        cv2.putText(img, label,(x + 10, y + 30), font, .8, (0, 0, 0), 1)
         
 
 
