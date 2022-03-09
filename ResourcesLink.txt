@@ -1,0 +1,6 @@
+Following These tutorial:
+1.Understand YOLO: https://medium.com/@venkatakrishna.jonnalagadda/object-detection-yolo-v1-v2-v3-c3d5eca2312a
+2.weights and configuration file: https://pjreddie.com/darknet/yolo/
+3.Tutorial Link: https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/
+4.Video Tutorial Link: https://www.youtube.com/watch?v=h56M5iUVgGs
+5.opencv: https://www.geeksforgeeks.org/python-opencv-cv2-imshow-method/
