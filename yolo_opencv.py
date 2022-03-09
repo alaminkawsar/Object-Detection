@@ -11,7 +11,7 @@ with open("coco.names","r") as f:
 
 outputlayers = net.getUnconnectedOutLayersNames()  
 
-img = cv2.imread("dog.jpg")
+img = cv2.imread("object.jpg")
 img = cv2.resize(img, None, fx=0.4,fy=0.4)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
