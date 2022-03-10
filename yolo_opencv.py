@@ -67,7 +67,6 @@ for i in range(len(boxes)):
         label = str(classes[class_ids[i]])
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 1)
         cv2.putText(img, label,(x + 10, y + 30), font, .8, (0, 0, 0), 1)
-        
 
 
 plt.imshow(img)
